@@ -1,0 +1,317 @@
+html{
+width: 100%;
+    height: 100%;
+    position: relative;
+	}
+
+
+body
+{
+
+
+
+    top: 0;
+    position: absolute;
+    margin: 0px;
+    /* height: 100%; */
+    width: 100%;
+    bottom: 0;
+
+
+}
+
+{
+	    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding: 15px 0px;
+}
+
+
+.content
+
+
+{    position: absolute;
+    top: 0;
+    bottom: 0;
+    /* height: auto; */
+    background: #E5E5E5;
+    /* position: absolute; */
+    width: 100%;
+}
+
+.img
+{
+	padding-left: 70px;
+	padding-top: 10px;
+}
+
+.logo
+{
+	vertical-align: top;
+    display: inline-block;
+    width: 14%;
+    height: 100%;
+	
+
+	
+
+
+}
+
+.entrada
+{
+	
+	vertical-align: top;
+    display: inline-block;
+    width: 52%;
+    height: 100%;
+	/*margin-top:2%;*/
+	
+
+}
+
+.encriptador
+{padding: 25px;
+	margin-top: 0%;
+	height: 70%;
+    padding-right: 30px;
+}
+
+.palabras
+{
+	text-transform:lowercase;
+	
+	border: none;
+	border-color: blue;
+	color:blue;
+	background: #E5E5E5;
+	width:100% ;
+	height: 100%;
+	
+	padding-top:30px  ;
+	/*margin-top: 50px;*/
+	/*margin: 30px;*/
+	font-size: 32PX;
+
+
+}
+
+textarea:focus, input:focus, input[type]:focus {
+    outline: 0 none;
+
+}
+
+
+
+
+.condicion
+{
+	text-align:left;
+	margin:0px;
+
+	/*margin-right: 250px;*/
+width: 100%;*/
+}
+
+.botones
+{
+
+  text-align:center;
+	height: 20%;
+}
+
+
+button
+{
+	width: 46%;
+	margin: 7px;
+	margin-top: 15px;
+	
+	height:55px ;
+font-weight: bold;
+	border-radius: 20px;
+	border: 2px solid	 darkblue;
+
+
+}
+.btn1
+{
+	color: white;
+	background: darkblue;
+
+
+}
+
+.btn2
+{
+
+color: darkblue;
+}
+
+
+.salida
+{
+
+    position: absolute;
+    display: inline-block;
+    width: 33.2436351%;
+    /* text-align: center; */
+    height: 100%;
+	
+
+	
+
+}
+
+
+.content-sal
+{
+	  border-radius:20px 	;
+    margin-top: 6%;
+    margin-right: 6%;
+    margin-bottom: 6%;
+    margin-left: 	6%;
+    /* display: block; */
+    /* padding-top: 4%; */
+    background: white;
+    height: 650px;
+/*width:100% ;*/
+}
+
+
+.vacio
+{
+height: 100%;
+width: 100%;
+
+}
+
+.cont-muñeco
+{
+	height: 70%;
+}
+
+
+.muñeco
+{ 
+	padding-top: 40%;
+width:80% ;
+height: ;
+
+
+}
+
+
+.text-sal
+{
+height:30%;
+
+}
+
+.aviso
+{
+	font-weight: bold;
+	font-family: "Inter";
+	font-style: normal;
+	padding-left: 50px;
+	padding-right: 50px;
+
+}
+
+.sugerencia
+{
+	height: auto;
+	
+	font-family: "Inter";
+	font-style: normal;
+
+	padding-left: 50px;
+	padding-right: 50px;
+
+}
+
+.lleno
+{
+
+	height: 100%;
+}
+
+.desencriptador
+{
+	padding: 20px;
+	margin-top: 4%;
+	height: 75%;
+
+}
+
+
+.palabras-de
+{
+	text-transform:lowercase;
+	border: none;
+	border-color: none;
+	
+	width:100% ;
+	height: 100%;
+	
+	padding-top:30pxpx  ;
+	/*margin-top: 50px;*/
+	/*margin: 30px;*/
+	/*font-size: PX;*/
+
+
+
+}
+
+
+
+
+
+.btn3
+{
+	width: 80%;
+	/*margin: 7px;*/
+	margin-top: 15px;
+	
+	color:darkblue;
+margin:20px auto;
+}
+
+@media screen and (max-width:480px){
+
+	.logo,.entrada,.salida
+	{
+		position: relative;
+		display: block;
+		width: auto;
+		height: auto;
+
+	}
+
+.content{
+
+	position: relative;
+}
+
+.palabras{
+	height: 280px;
+}
+
+button{	
+
+	width: 95%;
+}
+.btn3{
+
+	width: 95%;
+}
+
+}
+
+
+
